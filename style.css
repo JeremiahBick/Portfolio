@@ -38,6 +38,9 @@ nav{
   margin-left: 35px;
 }
 
+
+
+
 .about-photo {
   display: block;
   margin: 0 auto;
@@ -53,4 +56,29 @@ div.left-side {
 div.right-side {
   width: 50%;
   border: 2px solid black;
+}
+
+.product {
+  width: 400px;
+  border: 2px solid blue;
+  margin: 10px 5px 10px 20px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-photo {
+  display: block;
+  margin: auto;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.product-text {
+  text-align: center;
 }
