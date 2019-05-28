@@ -38,6 +38,16 @@ nav{
   margin-left: 35px;
 }
 
+.homepage-container {
+  display: flex;
+}
+
+.homepage-info {
+  border: 2px solid black;
+  width: 400px;
+  margin-left: 200px;
+}
+
 
 
 
