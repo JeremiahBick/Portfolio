@@ -52,15 +52,24 @@ a {
 
 .homepage-container {
   display: flex;
+  background-image: url("bruins2.jpg");
+ background-repeat: no-repeat;
+  background-size: contain;
+  height: 1200px;
+  width: 100%;
 }
 
 .homepage-info {
-  border: 2px solid black;
-  width: 400px;
-  margin-left: 200px;
+  width: 800px;
+  margin: 0 0 0 30%;
+  color: white;
 }
 
-
+.main-title {
+  background-color: lightgray;
+  margin: 0;
+  padding: 15px;
+}
 
 
 .about-photo {
