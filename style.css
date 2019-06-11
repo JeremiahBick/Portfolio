@@ -9,34 +9,37 @@ P.little { font-size: 3em}
 
 
 
-h1 {text-align: center; color: green;}
-
-.div1{
+h1 {text-align: center; color: black;}
+h3 {text-align: center; color: white;
+    margin: 0 0 0 0;
+}
+/* .div1{
   height: 100px;
   width: 100px;
   float: right;
-  background-color: blue;
-}
+  background-color: blue; */
+/* }
 .div2{
   height: 100px;
   width: 100px;
   float: left;
-  background-color: purple;
-}
+  background-color: white;
+} */
 
 nav{
-  background-color: grey;
+  background-color: black;
   padding: 10px 30% 10px 30%;
   display: flex;
   justify-content: space-between;
 }
 
 a:hover {
-  color:lightblue;
+  color:red;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .homepage-desc {
@@ -61,12 +64,15 @@ a {
 
 .homepage-info {
   width: 800px;
-  margin: 0 0 0 30%;
+  margin: 2% 0 0 25%;
   color: white;
 }
-
+.hometitle {
+  color: white;
+  margin-right: 13%;
+}
 .main-title {
-  background-color: lightgray;
+  background-color: white;
   margin: 0;
   padding: 15px;
 }
@@ -91,19 +97,21 @@ div.right-side {
 
 .product {
   width: 400px;
-  border: 2px solid blue;
+  border: 2px solid black;
   margin: 10px 5px 10px 20px;
+  background-color: white;
 }
 
 .product:hover {
   /* background-color: red; */
-  border: 4px solid black;
+  border: 4px solid red;
 }
 
 .products-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: #000000;
 }
 
 .product-photo {
@@ -113,8 +121,10 @@ div.right-side {
 
 .product-title {
   text-align: center;
+  color: black;
 }
 
 .product-text {
   text-align: center;
+color: black;
 }
